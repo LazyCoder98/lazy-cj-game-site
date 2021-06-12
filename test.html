@@ -1,0 +1,24 @@
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+    $('button').on('click', function() {
+        var message = $(<div>The Dark Chocolate Box has been
+        added to your basket</div>);
+         $('.box').append(message);
+         $('button').remove();
+        });</script>
+    </head>
+<div id="chocolates">
+ <h1>Anne’s Chocolates</h1>
+ <ul>
+ <li class="box dark">
+ <h2>Dark Chocolate Box</h2>
+ <span class="details">£18.99 for 32 Dark Chocolates,
+including UK-wide delivery</span>
+ <button class="buy">Buy Now</button>
+ </li>
+ </ul>
+</div>
+
